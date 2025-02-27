@@ -7,7 +7,15 @@ import { Testimonials } from "@/components/testimonials"
 import { Contact } from "@/components/contact"
 import Team from "@/components/Teams"
 
+import { OrganizationSchema, WebsiteSchema } from "@/components/structured-data"
 
+export const metadata = {
+  title: "Home",
+  description: "Binary Core Systems - Advanced technology solutions for modern businesses",
+  alternates: {
+    canonical: "/",
+  },
+}
 export default function Home() {
   
   return (
@@ -19,6 +27,8 @@ export default function Home() {
       <Team/>
       <Testimonials />
       <Contact />
+      <OrganizationSchema />
+      <WebsiteSchema />
     </main>
   )
 }

@@ -9,12 +9,57 @@ import MouseMoveEffect from "@/components/mouse-move-effect"
 import { MobileNav } from '@/components/mobileNav';
 import { Toaster } from 'sonner';
 // Define metadata as part of a server component
-export const metadata = {
-  title: "Binary Core Systems",
-  description: "Binary Core Systems offers cutting-edge web development, mobile app development, and networking services.",
-};
 
 const inter = Inter({ subsets: ["latin"] });
+
+export const metadata = {
+  title: {
+    default: "Binary Core Systems | Advanced Technology Solutions",
+    template: "%s | Binary Core Systems",
+  },
+  description: "Binary Core Systems provides cutting-edge technology solutions for businesses and enterprises.",
+  keywords: ["binary systems", "technology", "IT solutions", "software development", "enterprise solutions"],
+  metadataBase: new URL("https://binarycoresystems.com"),
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: "Binary Core Systems | Advanced Technology Solutions",
+    description: "Binary Core Systems provides cutting-edge technology solutions for businesses and enterprises.",
+    url: "https://binarycoresystems.com",
+    siteName: "Binary Core Systems",
+    images: [
+      {
+        url: "/images/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Binary Core Systems",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Binary Core Systems | Advanced Technology Solutions",
+    description: "Binary Core Systems provides cutting-edge technology solutions for businesses and enterprises.",
+    images: ["/images/twitter-image.jpg"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  verification: {
+    google: "your-google-verification-code",
+  },
+}
 
 
 export default function RootLayout({ children }) {
