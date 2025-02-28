@@ -22,9 +22,9 @@ export default function Team() {
       bio: "React and Nodejs backend engineer",
       image: "/placeholder.svg?height=300&width=300",
       social: {
-        twitter: "https://twitter.com/michaelchen",
-        linkedin: "https://linkedin.com/in/michaelchen",
-        github: "https://github.com/michaelchen",
+        twitter: "https://twitter.com/",
+        linkedin: "https://linkedin.com/in/",
+        github: "https://github.com/",
       },
     },
     // {

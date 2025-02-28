@@ -10,12 +10,13 @@ import Team from "@/components/Teams"
 import { OrganizationSchema, WebsiteSchema } from "@/components/structured-data"
 
 export const metadata = {
-  title: "Home",
-  description: "Binary Core Systems - Advanced technology solutions for modern businesses",
+  title: "Binary Core Systems | Advanced Technology Solutions & IT Services",
+  description: "Binary Core Systems provides cutting-edge technology solutions, IT consulting, and software development to help businesses thrive in the digital era.",
   alternates: {
     canonical: "/",
   },
 }
+
 export default function Home() {
   
   return (
