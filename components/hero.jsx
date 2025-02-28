@@ -13,8 +13,9 @@ export function Hero() {
           <br />
           Binary Core Systems
         </h1>
+      
         <p className="mx-auto max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
-          Empowering businesses with cutting-edge software solutions and Innovative tech solutions for your business. We specialize in web development, mobile apps, and networking services.
+        At Binary Core Systems, we provide advanced technology solutions to empower businesses. We specialize in web development, mobile apps, and networking services.
         </p>
       </div>
       <div className="flex gap-4 px-4 md:px-6">
