@@ -39,7 +39,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-6 text-center text-sm text-gray-500 dark:text-gray-400">
-          © 2023 Binary Core Systems. All rights reserved.
+          © 2024 Binary Core Systems. All rights reserved.
         </div>
       </div>
     </footer>

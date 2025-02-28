@@ -76,7 +76,7 @@ export default function Team() {
   return (
     <div className="container py-12 w-full px-4 md:px-6 lg:px-10" id="teams">
       <div className="text-left w-full mb-12">
-        <h1 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">Meet Our Team</h1>
+        <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">Meet Our Team</h2>
         <p className="mt-2 w-full text-lg text-left text-muted-foreground max-w-2xl ">
           We're a diverse group of passionate individuals committed to building exceptional products and experiences.
         </p>

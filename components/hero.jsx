@@ -23,7 +23,7 @@ export function Hero() {
             </Button>
             <Button asChild variant="outline"  size="lg" >
               <Link href="/contact">Contact Us</Link>
-            </Button>
+      </Button>
       </div>
     </section>
 

@@ -31,7 +31,7 @@ const products = [
   {
     name: "Employee Management System",
     tagline: "Manage your buisiness conviniently ",
-    description: "Make it easy to run your buisness and help your HR and Employees coordinate work effectively.",
+    description: "Make it easy to run your businessand help your HR and Employees coordinate work effectively.",
     price: "2500 KES/month",
     requiremets:['Till Number','Business Name','Phone Number','Business Logo']
   }
